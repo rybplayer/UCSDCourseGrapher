@@ -1,0 +1,346 @@
+digraph {
+	rankdir=LR
+	node [shape=rectangle]
+	bgcolor="#14213d"
+	node [color="#e5e5e5"]
+	node [fontcolor="#e5e5e5"]
+	node [fontname="Gill Sans"]
+	node [fontsize=12]
+	"MATH 100A"
+	"MATH 31CH" -> "MATH 100A" [color=pink]
+	"MATH 109" -> "MATH 100A" [color=pink]
+	"MATH 102"
+	"MATH 18" -> "MATH 102" [color=pink]
+	"MATH 20F" -> "MATH 102" [color=pink]
+	"MATH 31AH" -> "MATH 102" [color=pink]
+	"MATH 20C" -> "MATH 102" [color=red]
+	"MATH 103A"
+	"MATH 31CH" -> "MATH 103A" [color=pink]
+	"MATH 109" -> "MATH 103A" [color=pink]
+	"MATH 10B"
+	"MATH 10A" -> "MATH 10B" [color=pink]
+	"MATH 20A" -> "MATH 10B" [color=pink]
+	"MATH 109"
+	"MATH 18" -> "MATH 109" [color=pink]
+	"MATH 20F" -> "MATH 109" [color=pink]
+	"MATH 31AH" -> "MATH 109" [color=pink]
+	"MATH 20C" -> "MATH 109" [color=red]
+	"MATH 10C"
+	"MATH 10B" -> "MATH 10C" [color=pink]
+	"MATH 20B" -> "MATH 10C" [color=pink]
+	"MATH 11"
+	"MATH 10B" -> "MATH 11" [color=pink]
+	"MATH 20B" -> "MATH 11" [color=pink]
+	"MATH 10A"
+	"MATH 3C" -> "MATH 10A" [color=pink]
+	"MATH 4C" -> "MATH 10A" [color=pink]
+	"MATH 120A"
+	"MATH 20E" -> "MATH 120A" [color=pink]
+	"MATH 31CH" -> "MATH 120A" [color=pink]
+	"MATH 111A"
+	"MATH 20D" -> "MATH 111A" [color=pink]
+	"MATH 18" -> "MATH 111A" [color=red]
+	"MATH 20F" -> "MATH 111A" [color=red]
+	"MATH 31AH" -> "MATH 111A" [color=red]
+	"MATH 31CH" -> "MATH 111A" [color=orange]
+	"MATH 109" -> "MATH 111A" [color=orange]
+	"MATH 110"
+	"MATH 18" -> "MATH 110" [color=pink]
+	"MATH 20F" -> "MATH 110" [color=pink]
+	"MATH 31AH" -> "MATH 110" [color=pink]
+	"MATH 20D" -> "MATH 110" [color=red]
+	"MATH 20E" -> "MATH 110" [color=orange]
+	"MATH 31CH" -> "MATH 110" [color=orange]
+	"MATH 140A"
+	"MATH 31CH" -> "MATH 140A" [color=pink]
+	"MATH 109" -> "MATH 140A" [color=pink]
+	"MATH 150A"
+	"MATH 20E" -> "MATH 150A" [color=pink]
+	"MATH 31CH" -> "MATH 150A" [color=pink]
+	"MATH 18" -> "MATH 150A" [color=red]
+	"MATH 20F" -> "MATH 150A" [color=red]
+	"MATH 31AH" -> "MATH 150A" [color=red]
+	"MATH 142A"
+	"MATH 31CH" -> "MATH 142A" [color=pink]
+	"MATH 109" -> "MATH 142A" [color=pink]
+	"MATH 144"
+	"MATH 140B" -> "MATH 144" [color=pink]
+	"MATH 142B" -> "MATH 144" [color=pink]
+	"MATH 154"
+	"MATH 31CH" -> "MATH 154" [color=pink]
+	"MATH 109" -> "MATH 154" [color=pink]
+	"MATH 155A"
+	"MATH 18" -> "MATH 155A" [color=pink]
+	"MATH 20F" -> "MATH 155A" [color=pink]
+	"MATH 31AH" -> "MATH 155A" [color=pink]
+	"MATH 20C" -> "MATH 155A" [color=red]
+	"MATH 170A"
+	"MATH 18" -> "MATH 170A" [color=pink]
+	"MATH 20F" -> "MATH 170A" [color=pink]
+	"MATH 31AH" -> "MATH 170A" [color=pink]
+	"MATH 20C" -> "MATH 170A" [color=red]
+	"MATH 31BH" -> "MATH 170A" [color=red]
+	"MATH 173A"
+	"MATH 20C" -> "MATH 173A" [color=pink]
+	"MATH 31BH" -> "MATH 173A" [color=pink]
+	"MATH 20F" -> "MATH 173A" [color=red]
+	"MATH 31AH" -> "MATH 173A" [color=red]
+	"MATH 18"
+	"MATH 4C" -> "MATH 18" [color=pink]
+	"MATH 10A" -> "MATH 18" [color=pink]
+	"MATH 20A" -> "MATH 18" [color=pink]
+	"MATH 180A"
+	"MATH 20C" -> "MATH 180A" [color=pink]
+	"MATH 31BH" -> "MATH 180A" [color=pink]
+	"MATH 180C"
+	"MATH 180B" -> "MATH 180C" [color=pink]
+	"MATH 181B"
+	"MATH 181A" -> "MATH 181B" [color=pink]
+	"MATH 184"
+	"MATH 31CH" -> "MATH 184" [color=pink]
+	"MATH 109" -> "MATH 184" [color=pink]
+	"MATH 183"
+	"MATH 20C" -> "MATH 183" [color=pink]
+	"MATH 31BH" -> "MATH 183" [color=pink]
+	"MATH 2"
+	"MATH 185"
+	"ECON 120B" -> "MATH 185" [color=pink]
+	"MATH 181A" -> "MATH 185" [color=pink]
+	"MATH 18" -> "MATH 185" [color=red]
+	"MATH 20F" -> "MATH 185" [color=red]
+	"MATH 31AH" -> "MATH 185" [color=red]
+	"MATH 20C" -> "MATH 185" [color=orange]
+	"MATH 31BH" -> "MATH 185" [color=orange]
+	"MATH 20B"
+	"MATH 10B" -> "MATH 20B" [color=pink]
+	"MATH 10C" -> "MATH 20B" [color=pink]
+	"MATH 20A" -> "MATH 20B" [color=pink]
+	"MATH 20A"
+	"MATH 4C" -> "MATH 20A" [color=pink]
+	"MATH 10A" -> "MATH 20A" [color=pink]
+	"MATH 20C"
+	"MATH 20B" -> "MATH 20C" [color=pink]
+	"MATH 20D"
+	"MATH 20C" -> "MATH 20D" [color=pink]
+	"MATH 21C" -> "MATH 20D" [color=pink]
+	"MATH 31BH" -> "MATH 20D" [color=pink]
+	"MATH 20E"
+	"MATH 18" -> "MATH 20E" [color=pink]
+	"MATH 20F" -> "MATH 20E" [color=pink]
+	"MATH 31AH" -> "MATH 20E" [color=pink]
+	"MATH 20C" -> "MATH 20E" [color=red]
+	"MATH 21C" -> "MATH 20E" [color=red]
+	"MATH 31BH" -> "MATH 20E" [color=red]
+	"MATH 31AH"
+	"MATH 3C"
+	"MATH 4C"
+	"MATH 3C" -> "MATH 4C" [color=pink]
+	"MATH 96"
+	"MATH 20A" -> "MATH 96" [color=pink]
+	"MATH 103B"
+	"MATH 100A" -> "MATH 103B" [color=pink]
+	"MATH 103A" -> "MATH 103B" [color=pink]
+	"MATH 142B"
+	"MATH 140A" -> "MATH 142B" [color=pink]
+	"MATH 142A" -> "MATH 142B" [color=pink]
+	"MATH 193B"
+	"MATH 193A" -> "MATH 193B" [color=pink]
+	"MATH 193A"
+	"MATH 180A" -> "MATH 193A" [color=pink]
+	"MATH 183" -> "MATH 193A" [color=pink]
+	"MATH 100C"
+	"MATH 100B" -> "MATH 100C" [color=pink]
+	"MATH 120B"
+	"MATH 120A" -> "MATH 120B" [color=pink]
+	"MATH 140B"
+	"MATH 140A" -> "MATH 140B" [color=pink]
+	"MATH 148"
+	"MATH 140B" -> "MATH 148" [color=pink]
+	"MATH 142B" -> "MATH 148" [color=pink]
+	"MATH 121B"
+	"EDS 121A" -> "MATH 121B" [color=pink]
+	"MATH 121A" -> "MATH 121B" [color=pink]
+	"MATH 140C"
+	"MATH 140B" -> "MATH 140C" [color=pink]
+	"MATH 155B"
+	"MATH 155A" -> "MATH 155B" [color=pink]
+	"MATH 163"
+	"MATH 20B" -> "MATH 163" [color=pink]
+	"MATH 171B"
+	"MATH 171A" -> "MATH 171B" [color=pink]
+	"MATH 170B"
+	"MATH 170A" -> "MATH 170B" [color=pink]
+	"MATH 170C"
+	"MATH 20D" -> "MATH 170C" [color=pink]
+	"MATH 21D" -> "MATH 170C" [color=pink]
+	"MATH 170B" -> "MATH 170C" [color=red]
+	"MATH 179"
+	"MATH 174" -> "MATH 179" [color=pink]
+	"MATH 274" -> "MATH 179" [color=pink]
+	"MATH 173B"
+	"MATH 173A" -> "MATH 173B" [color=pink]
+	"MATH 180B"
+	"MATH 20D" -> "MATH 180B" [color=pink]
+	"MATH 18" -> "MATH 180B" [color=red]
+	"MATH 20F" -> "MATH 180B" [color=red]
+	"MATH 31AH" -> "MATH 180B" [color=red]
+	"MATH 31CH" -> "MATH 180B" [color=orange]
+	"MATH 109" -> "MATH 180B" [color=orange]
+	"MATH 180A" -> "MATH 180B" [color=yellow]
+	"MATH 181A"
+	"MATH 180A" -> "MATH 181A" [color=pink]
+	"MATH 18" -> "MATH 181A" [color=red]
+	"MATH 20F" -> "MATH 181A" [color=red]
+	"MATH 31AH" -> "MATH 181A" [color=red]
+	"MATH 20C" -> "MATH 181A" [color=orange]
+	"MATH 187A"
+	"MATH 10A" -> "MATH 187A" [color=pink]
+	"MATH 20A" -> "MATH 187A" [color=pink]
+	"MATH 187B"
+	"MATH 187" -> "MATH 187B" [color=pink]
+	"MATH 187A" -> "MATH 187B" [color=pink]
+	"MATH 18" -> "MATH 187B" [color=red]
+	"MATH 20F" -> "MATH 187B" [color=red]
+	"MATH 31AH" -> "MATH 187B" [color=red]
+	"MATH 31CH"
+	"MATH 31BH" -> "MATH 31CH" [color=pink]
+	"MATH 189"
+	"MATH 18" -> "MATH 189" [color=pink]
+	"MATH 20F" -> "MATH 189" [color=pink]
+	"MATH 31AH" -> "MATH 189" [color=pink]
+	"BENG 134" -> "MATH 189" [color=red]
+	"CSE 103" -> "MATH 189" [color=red]
+	"ECE 109" -> "MATH 189" [color=red]
+	"ECON 120A" -> "MATH 189" [color=red]
+	"MAE 108" -> "MATH 189" [color=red]
+	"MATH 180A" -> "MATH 189" [color=red]
+	"MATH 183" -> "MATH 189" [color=red]
+	"MATH 186" -> "MATH 189" [color=red]
+	"SE 125" -> "MATH 189" [color=red]
+	"MATH 20C" -> "MATH 189" [color=orange]
+	"MATH 87"
+	"MATH 95"
+	"MATH 100B"
+	"MATH 100A" -> "MATH 100B" [color=pink]
+	"MATH 104B"
+	"MATH 104A" -> "MATH 104B" [color=pink]
+	"MATH 171A"
+	"MATH 18" -> "MATH 171A" [color=pink]
+	"MATH 20F" -> "MATH 171A" [color=pink]
+	"MATH 31AH" -> "MATH 171A" [color=pink]
+	"MATH 20C" -> "MATH 171A" [color=red]
+	"MATH 121A"
+	"MATH 10C" -> "MATH 121A" [color=pink]
+	"MATH 20C" -> "MATH 121A" [color=pink]
+	"EDS 30" -> "MATH 121A" [color=red]
+	"MATH 95" -> "MATH 121A" [color=red]
+	"MATH 150B"
+	"MATH 150A" -> "MATH 150B" [color=pink]
+	"MATH 15A"
+	"CSE 8B" -> "MATH 15A" [color=pink]
+	"CSE 11" -> "MATH 15A" [color=pink]
+	"MATH 157"
+	"MATH 20D" -> "MATH 157" [color=pink]
+	"MATH 18" -> "MATH 157" [color=red]
+	"MATH 20F" -> "MATH 157" [color=red]
+	"MATH 31AH" -> "MATH 157" [color=red]
+	"COGS 18" -> "MATH 157" [color=orange]
+	"CSE 5A" -> "MATH 157" [color=orange]
+	"CSE 8A" -> "MATH 157" [color=orange]
+	"CSE 11" -> "MATH 157" [color=orange]
+	"DSC 10" -> "MATH 157" [color=orange]
+	"ECE 15" -> "MATH 157" [color=orange]
+	"ECE 143" -> "MATH 157" [color=orange]
+	"MATH 189" -> "MATH 157" [color=orange]
+	"MATH 182"
+	"MATH 180A" -> "MATH 182" [color=pink]
+	"MATH 18" -> "MATH 182" [color=red]
+	"MATH 31AH" -> "MATH 182" [color=red]
+	"MATH 186"
+	"MATH 20C" -> "MATH 186" [color=pink]
+	"MATH 31BH" -> "MATH 186" [color=pink]
+	"MATH 152"
+	"MATH 20D" -> "MATH 152" [color=pink]
+	"MATH 18" -> "MATH 152" [color=red]
+	"MATH 20F" -> "MATH 152" [color=red]
+	"MATH 31AH" -> "MATH 152" [color=red]
+	"MATH 190B"
+	"MATH 190A" -> "MATH 190B" [color=pink]
+	"MATH 194"
+	"MATH 20D" -> "MATH 194" [color=pink]
+	"MATH 18" -> "MATH 194" [color=red]
+	"MATH 20F" -> "MATH 194" [color=red]
+	"MATH 31AH" -> "MATH 194" [color=red]
+	"MATH 180A" -> "MATH 194" [color=orange]
+	"MATH 188"
+	"MATH 31CH" -> "MATH 188" [color=pink]
+	"MATH 109" -> "MATH 188" [color=pink]
+	"MATH 18" -> "MATH 188" [color=red]
+	"MATH 31AH" -> "MATH 188" [color=red]
+	"MATH 100A" -> "MATH 188" [color=orange]
+	"MATH 103A" -> "MATH 188" [color=orange]
+	"MATH 31BH"
+	"MATH 31AH" -> "MATH 31BH" [color=pink]
+	"MATH 104A"
+	"MATH 100B" -> "MATH 104A" [color=pink]
+	"MATH 103B" -> "MATH 104A" [color=pink]
+	"MATH 153"
+	"MATH 31CH" -> "MATH 153" [color=pink]
+	"MATH 109" -> "MATH 153" [color=pink]
+	"MATH 130"
+	"MATH 18" -> "MATH 130" [color=pink]
+	"MATH 20F" -> "MATH 130" [color=pink]
+	"MATH 31AH" -> "MATH 130" [color=pink]
+	"MATH 20D" -> "MATH 130" [color=red]
+	"MATH 106"
+	"MATH 100B" -> "MATH 106" [color=pink]
+	"MATH 103B" -> "MATH 106" [color=pink]
+	"MATH 105"
+	"MATH 31CH" -> "MATH 105" [color=pink]
+	"MATH 109" -> "MATH 105" [color=pink]
+	"MATH 158"
+	"MATH 31CH" -> "MATH 158" [color=pink]
+	"MATH 109" -> "MATH 158" [color=pink]
+	"MATH 190A"
+	"MATH 31CH" -> "MATH 190A" [color=pink]
+	"MATH 140A" -> "MATH 190A" [color=pink]
+	"MATH 142A" -> "MATH 190A" [color=pink]
+	"MATH 174"
+	"MATH 20D" -> "MATH 174" [color=pink]
+	"MATH 21D" -> "MATH 174" [color=pink]
+	"MATH 20F" -> "MATH 174" [color=red]
+	"MATH 31AH" -> "MATH 174" [color=red]
+	"MATH 160A"
+	"MATH 100A" -> "MATH 160A" [color=pink]
+	"MATH 103A" -> "MATH 160A" [color=pink]
+	"MATH 140A" -> "MATH 160A" [color=pink]
+	"MATH 130A"
+	"MATH 110A"
+	"MATH 104C"
+	"MATH 104B" -> "MATH 104C" [color=pink]
+	"MATH 184A"
+	"MATH 168A"
+	"MATH 18" -> "MATH 168A" [color=pink]
+	"MATH 20F" -> "MATH 168A" [color=pink]
+	"MATH 31AH" -> "MATH 168A" [color=pink]
+	"MATH 20C" -> "MATH 168A" [color=red]
+	"MATH 191"
+	"MATH 190" -> "MATH 191" [color=pink]
+	"MATH 175"
+	"MATH 174" -> "MATH 175" [color=pink]
+	"MATH 274" -> "MATH 175" [color=pink]
+	"MATH 111B"
+	"MATH 111A" -> "MATH 111B" [color=pink]
+	"MATH 181E"
+	"MATH 181B" -> "MATH 181E" [color=pink]
+	"MATH 190"
+	"MATH 110B"
+	"MATH 181C"
+	"MATH 181B" -> "MATH 181C" [color=pink]
+	"MATH 130B"
+	"MATH 187"
+	"MATH 20F"
+	"MATH 160B"
+	"MATH 160A" -> "MATH 160B" [color=pink]
+	"MATH 192"
+}

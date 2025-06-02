@@ -1,0 +1,64 @@
+digraph {
+	rankdir=LR
+	node [shape=rectangle]
+	bgcolor="#14213d"
+	node [color="#e5e5e5"]
+	node [fontcolor="#e5e5e5"]
+	node [fontname="Gill Sans"]
+	node [fontsize=12]
+	"DSC 10"
+	"DSC 102"
+	"DSC 100" -> "DSC 102" [color=pink]
+	"DSC 104"
+	"DSC 100" -> "DSC 104" [color=pink]
+	"DSC 106"
+	"DSC 80" -> "DSC 106" [color=pink]
+	"DSC 180A"
+	"DSC 102" -> "DSC 180A" [color=pink]
+	"MATH 189" -> "DSC 180A" [color=red]
+	"COGS 188" -> "DSC 180A" [color=orange]
+	"CSE 151A" -> "DSC 180A" [color=orange]
+	"CSE 158" -> "DSC 180A" [color=orange]
+	"DSC 170"
+	"DSC 80" -> "DSC 170" [color=pink]
+	"DSC 190"
+	"DSC 20"
+	"DSC 10" -> "DSC 20" [color=pink]
+	"DSC 95"
+	"DSC 10" -> "DSC 95" [color=pink]
+	"DSC 40A"
+	"DSC 10" -> "DSC 40A" [color=pink]
+	"MATH 20C" -> "DSC 40A" [color=red]
+	"MATH 31BH" -> "DSC 40A" [color=red]
+	"MATH 18" -> "DSC 40A" [color=orange]
+	"MATH 20F" -> "DSC 40A" [color=orange]
+	"MATH 31AH" -> "DSC 40A" [color=orange]
+	"DSC 40B"
+	"DSC 40A" -> "DSC 40B" [color=pink]
+	"DSC 20" -> "DSC 40B" [color=red]
+	"DSC 80"
+	"DSC 30" -> "DSC 80" [color=pink]
+	"DSC 40A" -> "DSC 80" [color=red]
+	"DSC 96"
+	"DSC 100"
+	"DSC 80" -> "DSC 100" [color=pink]
+	"DSC 40B" -> "DSC 100" [color=red]
+	"DSC 120"
+	"MATH 18" -> "DSC 120" [color=pink]
+	"MATH 31AH" -> "DSC 120" [color=pink]
+	"MATH 20C" -> "DSC 120" [color=red]
+	"DSC 40B" -> "DSC 120" [color=orange]
+	"DSC 160"
+	"DSC 80" -> "DSC 160" [color=pink]
+	"DSC 180B"
+	"DSC 106" -> "DSC 180B" [color=pink]
+	"DSC 180A" -> "DSC 180B" [color=red]
+	"DSC 30"
+	"DSC 20" -> "DSC 30" [color=pink]
+	"DSC 155"
+	"MATH 180A" -> "DSC 155" [color=pink]
+	"MATH 18" -> "DSC 155" [color=red]
+	"MATH 31AH" -> "DSC 155" [color=red]
+	"DSC 90"
+	"DSC 10" -> "DSC 90" [color=pink]
+}

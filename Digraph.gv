@@ -1,0 +1,815 @@
+digraph {
+	rankdir=LR
+	subgraph cluster_Calculus {
+		label=Calculus
+		subgraph "cluster_Linear Algebra and Calculus" {
+			label="Linear Algebra and Calculus"
+			"MATH 18"
+			"MATH 4C" -> "MATH 18" [color=pink]
+			"MATH 10A" -> "MATH 18" [color=pink]
+			"MATH 20A" -> "MATH 18" [color=pink]
+			"MATH 20A"
+			"MATH 4C" -> "MATH 20A" [color=pink]
+			"MATH 10A" -> "MATH 20A" [color=pink]
+			"MATH 20B"
+			"MATH 10B" -> "MATH 20B" [color=pink]
+			"MATH 10C" -> "MATH 20B" [color=pink]
+			"MATH 20A" -> "MATH 20B" [color=pink]
+			"MATH 20C"
+			"MATH 20B" -> "MATH 20C" [color=pink]
+			"MATH 20D"
+			"MATH 20C" -> "MATH 20D" [color=pink]
+			"MATH 21C" -> "MATH 20D" [color=pink]
+			"MATH 31BH" -> "MATH 20D" [color=pink]
+			"MATH 20E"
+			"MATH 18" -> "MATH 20E" [color=pink]
+			"MATH 20F" -> "MATH 20E" [color=pink]
+			"MATH 31AH" -> "MATH 20E" [color=pink]
+			"MATH 20C" -> "MATH 20E" [color=red]
+			"MATH 21C" -> "MATH 20E" [color=red]
+			"MATH 31BH" -> "MATH 20E" [color=red]
+		}
+		subgraph "cluster_Honors Calculus" {
+			label="Honors Calculus"
+			"MATH 31AH"
+			"MATH 31BH"
+			"MATH 31AH" -> "MATH 31BH" [color=pink]
+			"MATH 31CH"
+			"MATH 31BH" -> "MATH 31CH" [color=pink]
+			"MATH 20D"
+			"MATH 20C" -> "MATH 20D" [color=pink]
+			"MATH 21C" -> "MATH 20D" [color=pink]
+			"MATH 31BH" -> "MATH 20D" [color=pink]
+		}
+	}
+	subgraph "cluster_Intro to CS" {
+		label="Intro to CS"
+		subgraph cluster_Java {
+			label=Java
+			"CSE 8A"
+			"CSE 8B"
+			"CSE 8A" -> "CSE 8B" [color=pink]
+		}
+		subgraph "cluster_Java (Accelerated)" {
+			label="Java (Accelerated)"
+			"CSE 11"
+		}
+	}
+	subgraph "cluster_Software Tools and Techniques" {
+		label="Software Tools and Techniques"
+		"CSE 15L"
+	}
+	subgraph "cluster_Computer Organization and Systems Programming" {
+		label="Computer Organization and Systems Programming"
+		"CSE 30"
+	}
+	subgraph "cluster_Basic Data Structures and Object-Oriented Design" {
+		label="Basic Data Structures and Object-Oriented Design"
+		"CSE 12"
+	}
+	subgraph "cluster_Mathematical Reasoning" {
+		label="Mathematical Reasoning"
+		"MATH 109"
+	}
+	subgraph cluster_Algebra {
+		label=Algebra
+		subgraph "cluster_Modern Applied Algebra" {
+			label="Modern Applied Algebra"
+			"MATH 103A"
+			"MATH 31CH" -> "MATH 103A" [color=pink]
+			"MATH 109" -> "MATH 103A" [color=pink]
+			"MATH 103B"
+			"MATH 100A" -> "MATH 103B" [color=pink]
+			"MATH 103A" -> "MATH 103B" [color=pink]
+		}
+		subgraph "cluster_Modern Algebra" {
+			label="Modern Algebra"
+			"MATH 100A"
+			"MATH 31CH" -> "MATH 100A" [color=pink]
+			"MATH 109" -> "MATH 100A" [color=pink]
+			"MATH 100B"
+			"MATH 100A" -> "MATH 100B" [color=pink]
+		}
+	}
+	subgraph "cluster_Theory of Computability" {
+		label="Theory of Computability"
+		"CSE 105"
+	}
+	subgraph "cluster_Computer Implementations of Data Structures" {
+		label="Computer Implementations of Data Structures"
+		"CSE 100"
+	}
+	subgraph "cluster_Intro to Probability" {
+		label="Intro to Probability"
+		"MATH 180A"
+		"MATH 183"
+	}
+	subgraph "cluster_Discrete Math or Combinatorics" {
+		label="Discrete Math or Combinatorics"
+		"MATH 154"
+		"MATH 158"
+		"MATH 184"
+		"MATH 188"
+	}
+	subgraph "cluster_Design and Analysis of Algorithms" {
+		label="Design and Analysis of Algorithms"
+		"CSE 101"
+	}
+	subgraph "cluster_Applied Mathematics Electives" {
+		label="Applied Mathematics Electives"
+		subgraph "cluster_Option 1" {
+			label="Option 1"
+			"MATH 170A"
+			"MATH 18" -> "MATH 170A" [color=pink]
+			"MATH 20F" -> "MATH 170A" [color=pink]
+			"MATH 31AH" -> "MATH 170A" [color=pink]
+			"MATH 20C" -> "MATH 170A" [color=red]
+			"MATH 31BH" -> "MATH 170A" [color=red]
+			"MATH 170B"
+			"MATH 170A" -> "MATH 170B" [color=pink]
+			"MATH 170C"
+			"MATH 20D" -> "MATH 170C" [color=pink]
+			"MATH 21D" -> "MATH 170C" [color=pink]
+			"MATH 170B" -> "MATH 170C" [color=red]
+			"MATH 171A"
+			"MATH 18" -> "MATH 171A" [color=pink]
+			"MATH 20F" -> "MATH 171A" [color=pink]
+			"MATH 31AH" -> "MATH 171A" [color=pink]
+			"MATH 20C" -> "MATH 171A" [color=red]
+			"MATH 171B"
+			"MATH 171A" -> "MATH 171B" [color=pink]
+			"MATH 173A"
+			"MATH 20C" -> "MATH 173A" [color=pink]
+			"MATH 31BH" -> "MATH 173A" [color=pink]
+			"MATH 20F" -> "MATH 173A" [color=red]
+			"MATH 31AH" -> "MATH 173A" [color=red]
+			"MATH 173B"
+			"MATH 173A" -> "MATH 173B" [color=pink]
+			"MATH 174"
+			"MATH 20D" -> "MATH 174" [color=pink]
+			"MATH 21D" -> "MATH 174" [color=pink]
+			"MATH 20F" -> "MATH 174" [color=red]
+			"MATH 31AH" -> "MATH 174" [color=red]
+			"MATH 175"
+			"MATH 174" -> "MATH 175" [color=pink]
+			"MATH 274" -> "MATH 175" [color=pink]
+			"MATH 179"
+			"MATH 174" -> "MATH 179" [color=pink]
+			"MATH 274" -> "MATH 179" [color=pink]
+			"MATH 180B"
+			"MATH 20D" -> "MATH 180B" [color=pink]
+			"MATH 18" -> "MATH 180B" [color=red]
+			"MATH 20F" -> "MATH 180B" [color=red]
+			"MATH 31AH" -> "MATH 180B" [color=red]
+			"MATH 31CH" -> "MATH 180B" [color=orange]
+			"MATH 109" -> "MATH 180B" [color=orange]
+			"MATH 180A" -> "MATH 180B" [color=yellow]
+			"MATH 180C"
+			"MATH 180B" -> "MATH 180C" [color=pink]
+			"MATH 181A"
+			"MATH 180A" -> "MATH 181A" [color=pink]
+			"MATH 18" -> "MATH 181A" [color=red]
+			"MATH 20F" -> "MATH 181A" [color=red]
+			"MATH 31AH" -> "MATH 181A" [color=red]
+			"MATH 20C" -> "MATH 181A" [color=orange]
+			"MATH 181B"
+			"MATH 181A" -> "MATH 181B" [color=pink]
+			"MATH 181C"
+			"MATH 181B" -> "MATH 181C" [color=pink]
+			"MATH 181E"
+			"MATH 181B" -> "MATH 181E" [color=pink]
+		}
+		subgraph "cluster_Option 2" {
+			label="Option 2"
+			"MATH 170A"
+			"MATH 18" -> "MATH 170A" [color=pink]
+			"MATH 20F" -> "MATH 170A" [color=pink]
+			"MATH 31AH" -> "MATH 170A" [color=pink]
+			"MATH 20C" -> "MATH 170A" [color=red]
+			"MATH 31BH" -> "MATH 170A" [color=red]
+			"MATH 170B"
+			"MATH 170A" -> "MATH 170B" [color=pink]
+			"MATH 170C"
+			"MATH 20D" -> "MATH 170C" [color=pink]
+			"MATH 21D" -> "MATH 170C" [color=pink]
+			"MATH 170B" -> "MATH 170C" [color=red]
+			"MATH 171A"
+			"MATH 18" -> "MATH 171A" [color=pink]
+			"MATH 20F" -> "MATH 171A" [color=pink]
+			"MATH 31AH" -> "MATH 171A" [color=pink]
+			"MATH 20C" -> "MATH 171A" [color=red]
+			"MATH 171B"
+			"MATH 171A" -> "MATH 171B" [color=pink]
+			"MATH 173A"
+			"MATH 20C" -> "MATH 173A" [color=pink]
+			"MATH 31BH" -> "MATH 173A" [color=pink]
+			"MATH 20F" -> "MATH 173A" [color=red]
+			"MATH 31AH" -> "MATH 173A" [color=red]
+			"MATH 173B"
+			"MATH 173A" -> "MATH 173B" [color=pink]
+			"MATH 174"
+			"MATH 20D" -> "MATH 174" [color=pink]
+			"MATH 21D" -> "MATH 174" [color=pink]
+			"MATH 20F" -> "MATH 174" [color=red]
+			"MATH 31AH" -> "MATH 174" [color=red]
+			"MATH 175"
+			"MATH 174" -> "MATH 175" [color=pink]
+			"MATH 274" -> "MATH 175" [color=pink]
+			"MATH 179"
+			"MATH 174" -> "MATH 179" [color=pink]
+			"MATH 274" -> "MATH 179" [color=pink]
+			"MATH 180B"
+			"MATH 20D" -> "MATH 180B" [color=pink]
+			"MATH 18" -> "MATH 180B" [color=red]
+			"MATH 20F" -> "MATH 180B" [color=red]
+			"MATH 31AH" -> "MATH 180B" [color=red]
+			"MATH 31CH" -> "MATH 180B" [color=orange]
+			"MATH 109" -> "MATH 180B" [color=orange]
+			"MATH 180A" -> "MATH 180B" [color=yellow]
+			"MATH 180C"
+			"MATH 180B" -> "MATH 180C" [color=pink]
+			"MATH 181A"
+			"MATH 180A" -> "MATH 181A" [color=pink]
+			"MATH 18" -> "MATH 181A" [color=red]
+			"MATH 20F" -> "MATH 181A" [color=red]
+			"MATH 31AH" -> "MATH 181A" [color=red]
+			"MATH 20C" -> "MATH 181A" [color=orange]
+			"MATH 181B"
+			"MATH 181A" -> "MATH 181B" [color=pink]
+			"MATH 181C"
+			"MATH 181B" -> "MATH 181C" [color=pink]
+			"MATH 181E"
+			"MATH 181B" -> "MATH 181E" [color=pink]
+		}
+	}
+	subgraph "cluster_Computational Electives" {
+		label="Computational Electives"
+		subgraph "cluster_Option 1" {
+			label="Option 1"
+			"MATH 152"
+			"MATH 20D" -> "MATH 152" [color=pink]
+			"MATH 18" -> "MATH 152" [color=red]
+			"MATH 20F" -> "MATH 152" [color=red]
+			"MATH 31AH" -> "MATH 152" [color=red]
+			"MATH 154"
+			"MATH 31CH" -> "MATH 154" [color=pink]
+			"MATH 109" -> "MATH 154" [color=pink]
+			"MATH 155A"
+			"MATH 18" -> "MATH 155A" [color=pink]
+			"MATH 20F" -> "MATH 155A" [color=pink]
+			"MATH 31AH" -> "MATH 155A" [color=pink]
+			"MATH 20C" -> "MATH 155A" [color=red]
+			"MATH 155B"
+			"MATH 155A" -> "MATH 155B" [color=pink]
+			"MATH 157"
+			"MATH 20D" -> "MATH 157" [color=pink]
+			"MATH 18" -> "MATH 157" [color=red]
+			"MATH 20F" -> "MATH 157" [color=red]
+			"MATH 31AH" -> "MATH 157" [color=red]
+			"COGS 18" -> "MATH 157" [color=orange]
+			"CSE 5A" -> "MATH 157" [color=orange]
+			"CSE 8A" -> "MATH 157" [color=orange]
+			"CSE 11" -> "MATH 157" [color=orange]
+			"DSC 10" -> "MATH 157" [color=orange]
+			"ECE 15" -> "MATH 157" [color=orange]
+			"ECE 143" -> "MATH 157" [color=orange]
+			"MATH 189" -> "MATH 157" [color=orange]
+			"MATH 158"
+			"MATH 31CH" -> "MATH 158" [color=pink]
+			"MATH 109" -> "MATH 158" [color=pink]
+			"MATH 160A"
+			"MATH 100A" -> "MATH 160A" [color=pink]
+			"MATH 103A" -> "MATH 160A" [color=pink]
+			"MATH 140A" -> "MATH 160A" [color=pink]
+			"MATH 160B"
+			"MATH 160A" -> "MATH 160B" [color=pink]
+			"MATH 168A"
+			"MATH 18" -> "MATH 168A" [color=pink]
+			"MATH 20F" -> "MATH 168A" [color=pink]
+			"MATH 31AH" -> "MATH 168A" [color=pink]
+			"MATH 20C" -> "MATH 168A" [color=red]
+			"MATH 182"
+			"MATH 180A" -> "MATH 182" [color=pink]
+			"MATH 18" -> "MATH 182" [color=red]
+			"MATH 31AH" -> "MATH 182" [color=red]
+			"MATH 184"
+			"MATH 31CH" -> "MATH 184" [color=pink]
+			"MATH 109" -> "MATH 184" [color=pink]
+			"MATH 185"
+			"ECON 120B" -> "MATH 185" [color=pink]
+			"MATH 181A" -> "MATH 185" [color=pink]
+			"MATH 18" -> "MATH 185" [color=red]
+			"MATH 20F" -> "MATH 185" [color=red]
+			"MATH 31AH" -> "MATH 185" [color=red]
+			"MATH 20C" -> "MATH 185" [color=orange]
+			"MATH 31BH" -> "MATH 185" [color=orange]
+			"MATH 187A"
+			"MATH 10A" -> "MATH 187A" [color=pink]
+			"MATH 20A" -> "MATH 187A" [color=pink]
+			"MATH 187B"
+			"MATH 187" -> "MATH 187B" [color=pink]
+			"MATH 187A" -> "MATH 187B" [color=pink]
+			"MATH 18" -> "MATH 187B" [color=red]
+			"MATH 20F" -> "MATH 187B" [color=red]
+			"MATH 31AH" -> "MATH 187B" [color=red]
+			"MATH 188"
+			"MATH 31CH" -> "MATH 188" [color=pink]
+			"MATH 109" -> "MATH 188" [color=pink]
+			"MATH 18" -> "MATH 188" [color=red]
+			"MATH 31AH" -> "MATH 188" [color=red]
+			"MATH 100A" -> "MATH 188" [color=orange]
+			"MATH 103A" -> "MATH 188" [color=orange]
+			"MATH 189"
+			"MATH 18" -> "MATH 189" [color=pink]
+			"MATH 20F" -> "MATH 189" [color=pink]
+			"MATH 31AH" -> "MATH 189" [color=pink]
+			"BENG 134" -> "MATH 189" [color=red]
+			"CSE 103" -> "MATH 189" [color=red]
+			"ECE 109" -> "MATH 189" [color=red]
+			"ECON 120A" -> "MATH 189" [color=red]
+			"MAE 108" -> "MATH 189" [color=red]
+			"MATH 180A" -> "MATH 189" [color=red]
+			"MATH 183" -> "MATH 189" [color=red]
+			"MATH 186" -> "MATH 189" [color=red]
+			"SE 125" -> "MATH 189" [color=red]
+			"MATH 20C" -> "MATH 189" [color=orange]
+			"CSE 107"
+			"CSE 21" -> "CSE 107" [color=pink]
+			"MATH 154" -> "CSE 107" [color=pink]
+			"MATH 184" -> "CSE 107" [color=pink]
+			"CSE 101" -> "CSE 107" [color=red]
+			"CSE 105" -> "CSE 107" [color=orange]
+			"CSE 110"
+			"CSE 100" -> "CSE 110" [color=pink]
+			"CSE 120"
+			"CSE 30" -> "CSE 120" [color=pink]
+			"CSE 101" -> "CSE 120" [color=red]
+			"CSE 110" -> "CSE 120" [color=orange]
+			"CSE 121"
+			"CSE 120" -> "CSE 121" [color=pink]
+			"CSE 123"
+			"CSE 30" -> "CSE 123" [color=pink]
+			"CSE 101" -> "CSE 123" [color=red]
+			"CSE 110" -> "CSE 123" [color=orange]
+			"CSE 124"
+			"CSE 30" -> "CSE 124" [color=pink]
+			"CSE 101" -> "CSE 124" [color=red]
+			"CSE 110" -> "CSE 124" [color=orange]
+			"CSE 127"
+			"CSE 21" -> "CSE 127" [color=pink]
+			"MATH 154" -> "CSE 127" [color=pink]
+			"MATH 184" -> "CSE 127" [color=pink]
+			"MATH 184A" -> "CSE 127" [color=pink]
+			"CSE 120" -> "CSE 127" [color=red]
+			"CSE 123" -> "CSE 127" [color=red]
+			"CSE 124" -> "CSE 127" [color=red]
+			"CSE 130"
+			"CSE 12" -> "CSE 130" [color=pink]
+			"CSE 100" -> "CSE 130" [color=red]
+			"MATH 176" -> "CSE 130" [color=red]
+			"CSE 105" -> "CSE 130" [color=orange]
+			"MATH 166" -> "CSE 130" [color=orange]
+			"CSE 131"
+			"CSE 100" -> "CSE 131" [color=pink]
+			"CSE 105" -> "CSE 131" [color=red]
+			"CSE 130" -> "CSE 131" [color=orange]
+			"CSE 132A"
+			"CSE 100" -> "CSE 132A" [color=pink]
+			"CSE 132B"
+			"CSE 132A" -> "CSE 132B" [color=pink]
+			"CSE 134B"
+			"CSE 100" -> "CSE 134B" [color=pink]
+			"CSE 140"
+			"CSE 20" -> "CSE 140" [color=pink]
+			"MATH 15A" -> "CSE 140" [color=pink]
+			"MATH 31CH" -> "CSE 140" [color=pink]
+			"MATH 109" -> "CSE 140" [color=pink]
+			"CSE 30" -> "CSE 140" [color=red]
+			"CSE 140L"
+			"CSE 20" -> "CSE 140L" [color=pink]
+			"MATH 15A" -> "CSE 140L" [color=pink]
+			"MATH 31CH" -> "CSE 140L" [color=pink]
+			"MATH 109" -> "CSE 140L" [color=pink]
+			"CSE 30" -> "CSE 140L" [color=red]
+			"CSE 141"
+			"CSE 30" -> "CSE 141" [color=pink]
+			"CSE 140" -> "CSE 141" [color=red]
+			"CSE 140L" -> "CSE 141" [color=orange]
+			"CSE 141L"
+			"CSE 30" -> "CSE 141L" [color=pink]
+			"CSE 140" -> "CSE 141L" [color=red]
+			"CSE 140L" -> "CSE 141L" [color=orange]
+			"CSE 150A"
+			"CSE 12" -> "CSE 150A" [color=pink]
+			"DSC 40B" -> "CSE 150A" [color=pink]
+			"CSE 15L" -> "CSE 150A" [color=red]
+			"DSC 80" -> "CSE 150A" [color=red]
+			"COGS 118D" -> "CSE 150A" [color=orange]
+			"CSE 103" -> "CSE 150A" [color=orange]
+			"ECE 109" -> "CSE 150A" [color=orange]
+			"ECON 120A" -> "CSE 150A" [color=orange]
+			"MATH 180A" -> "CSE 150A" [color=orange]
+			"MATH 183" -> "CSE 150A" [color=orange]
+			"MATH 20A" -> "CSE 150A" [color=yellow]
+			"MATH 18" -> "CSE 150A" [color=lime]
+			"MATH 31AH" -> "CSE 150A" [color=lime]
+			"CSE 150B"
+			"CSE 12" -> "CSE 150B" [color=pink]
+			"DSC 40B" -> "CSE 150B" [color=pink]
+			"CSE 15L" -> "CSE 150B" [color=red]
+			"DSC 80" -> "CSE 150B" [color=red]
+			"COGS 118D" -> "CSE 150B" [color=orange]
+			"CSE 103" -> "CSE 150B" [color=orange]
+			"ECE 109" -> "CSE 150B" [color=orange]
+			"ECON 120A" -> "CSE 150B" [color=orange]
+			"MATH 180A" -> "CSE 150B" [color=orange]
+			"MATH 183" -> "CSE 150B" [color=orange]
+			"CSE 100" -> "CSE 150B" [color=yellow]
+			"CSE 151A"
+			"CSE 12" -> "CSE 151A" [color=pink]
+			"DSC 40B" -> "CSE 151A" [color=pink]
+			"CSE 15L" -> "CSE 151A" [color=red]
+			"DSC 80" -> "CSE 151A" [color=red]
+			"COGS 118D" -> "CSE 151A" [color=orange]
+			"CSE 103" -> "CSE 151A" [color=orange]
+			"ECE 109" -> "CSE 151A" [color=orange]
+			"ECON 120A" -> "CSE 151A" [color=orange]
+			"MATH 181A" -> "CSE 151A" [color=orange]
+			"MATH 183" -> "CSE 151A" [color=orange]
+			"MATH 18" -> "CSE 151A" [color=yellow]
+			"MATH 31AH" -> "CSE 151A" [color=yellow]
+			"MATH 20C" -> "CSE 151A" [color=lime]
+			"MATH 31BH" -> "CSE 151A" [color=lime]
+			"CSE 152A"
+			"MATH 18" -> "CSE 152A" [color=pink]
+			"MATH 31AH" -> "CSE 152A" [color=pink]
+			"CSE 12" -> "CSE 152A" [color=red]
+			"DSC 30" -> "CSE 152A" [color=red]
+			"CSE 15L" -> "CSE 152A" [color=orange]
+			"DSC 80" -> "CSE 152A" [color=orange]
+			"CSE 152B"
+			"CSE 152" -> "CSE 152B" [color=pink]
+			"CSE 152A" -> "CSE 152B" [color=pink]
+			"CSE 166" -> "CSE 152B" [color=pink]
+			"CSE 158"
+			"CSE 12" -> "CSE 158" [color=pink]
+			"DSC 40B" -> "CSE 158" [color=pink]
+			"CSE 15L" -> "CSE 158" [color=red]
+			"DSC 80" -> "CSE 158" [color=red]
+			"BENG 100" -> "CSE 158" [color=orange]
+			"BENG 134" -> "CSE 158" [color=orange]
+			"COGS 118D" -> "CSE 158" [color=orange]
+			"CSE 103" -> "CSE 158" [color=orange]
+			"ECE 109" -> "CSE 158" [color=orange]
+			"ECON 120A" -> "CSE 158" [color=orange]
+			"MATH 180A" -> "CSE 158" [color=orange]
+			"MATH 181A" -> "CSE 158" [color=orange]
+			"MATH 183" -> "CSE 158" [color=orange]
+			"MATH 186" -> "CSE 158" [color=orange]
+			"CSE 160"
+			"CSE 100" -> "CSE 160" [color=pink]
+			"MATH 176" -> "CSE 160" [color=pink]
+			"CSE 165"
+			"CSE 167" -> "CSE 165" [color=pink]
+			"CSE 167"
+			"CSE 100" -> "CSE 167" [color=pink]
+			"MATH 176" -> "CSE 167" [color=pink]
+			"CSE 168"
+			"CSE 167" -> "CSE 168" [color=pink]
+			"CSE 169"
+			"CSE 167" -> "CSE 169" [color=pink]
+			"CSE 176A"
+			"COGS 120" -> "CSE 176A" [color=pink]
+			"CSE 110" -> "CSE 176A" [color=pink]
+			"CSE 170" -> "CSE 176A" [color=pink]
+			"COGS 108"
+			"COGS 18" -> "COGS 108" [color=pink]
+			"CSE 8A" -> "COGS 108" [color=pink]
+			"CSE 11" -> "COGS 108" [color=pink]
+			"DSC 10" -> "COGS 108" [color=pink]
+			"MAE 8" -> "COGS 108" [color=pink]
+			"COGS 118A"
+			"COGS 18" -> "COGS 118A" [color=pink]
+			"CSE 8B" -> "COGS 118A" [color=pink]
+			"CSE 11" -> "COGS 118A" [color=pink]
+			"MATH 18" -> "COGS 118A" [color=red]
+			"MATH 31AH" -> "COGS 118A" [color=red]
+			"MATH 20E" -> "COGS 118A" [color=orange]
+			"MATH 180A" -> "COGS 118A" [color=yellow]
+			"COGS 108" -> "COGS 118A" [color=lime]
+			"COGS 109" -> "COGS 118A" [color=lime]
+			"COGS 118B" -> "COGS 118A" [color=lime]
+			"CSE 150" -> "COGS 118A" [color=lime]
+			"CSE 151" -> "COGS 118A" [color=lime]
+			"CSE 158" -> "COGS 118A" [color=lime]
+			"ECE 174" -> "COGS 118A" [color=lime]
+			"ECE 175A" -> "COGS 118A" [color=lime]
+			"COGS 118B"
+			"CSE 8B" -> "COGS 118B" [color=pink]
+			"CSE 11" -> "COGS 118B" [color=pink]
+			"MATH 18" -> "COGS 118B" [color=red]
+			"MATH 31AH" -> "COGS 118B" [color=red]
+			"MATH 20E" -> "COGS 118B" [color=orange]
+			"MATH 180A" -> "COGS 118B" [color=yellow]
+			"COGS 120"
+			"CSE 8B" -> "COGS 120" [color=pink]
+			"CSE 11" -> "COGS 120" [color=pink]
+			"DSC 30" -> "COGS 120" [color=pink]
+			"COGS 1" -> "COGS 120" [color=red]
+			"COGS 187A" -> "COGS 120" [color=red]
+			"DSGN 1" -> "COGS 120" [color=red]
+			"COGS 185"
+			"COGS 118A" -> "COGS 185" [color=pink]
+			"COGS 188"
+			"COGS 109" -> "COGS 188" [color=pink]
+			"COGS 118A" -> "COGS 188" [color=pink]
+			"COGS 118B" -> "COGS 188" [color=pink]
+		}
+		subgraph "cluster_Option 2" {
+			label="Option 2"
+			"MATH 152"
+			"MATH 20D" -> "MATH 152" [color=pink]
+			"MATH 18" -> "MATH 152" [color=red]
+			"MATH 20F" -> "MATH 152" [color=red]
+			"MATH 31AH" -> "MATH 152" [color=red]
+			"MATH 154"
+			"MATH 31CH" -> "MATH 154" [color=pink]
+			"MATH 109" -> "MATH 154" [color=pink]
+			"MATH 155A"
+			"MATH 18" -> "MATH 155A" [color=pink]
+			"MATH 20F" -> "MATH 155A" [color=pink]
+			"MATH 31AH" -> "MATH 155A" [color=pink]
+			"MATH 20C" -> "MATH 155A" [color=red]
+			"MATH 155B"
+			"MATH 155A" -> "MATH 155B" [color=pink]
+			"MATH 157"
+			"MATH 20D" -> "MATH 157" [color=pink]
+			"MATH 18" -> "MATH 157" [color=red]
+			"MATH 20F" -> "MATH 157" [color=red]
+			"MATH 31AH" -> "MATH 157" [color=red]
+			"COGS 18" -> "MATH 157" [color=orange]
+			"CSE 5A" -> "MATH 157" [color=orange]
+			"CSE 8A" -> "MATH 157" [color=orange]
+			"CSE 11" -> "MATH 157" [color=orange]
+			"DSC 10" -> "MATH 157" [color=orange]
+			"ECE 15" -> "MATH 157" [color=orange]
+			"ECE 143" -> "MATH 157" [color=orange]
+			"MATH 189" -> "MATH 157" [color=orange]
+			"MATH 158"
+			"MATH 31CH" -> "MATH 158" [color=pink]
+			"MATH 109" -> "MATH 158" [color=pink]
+			"MATH 160A"
+			"MATH 100A" -> "MATH 160A" [color=pink]
+			"MATH 103A" -> "MATH 160A" [color=pink]
+			"MATH 140A" -> "MATH 160A" [color=pink]
+			"MATH 160B"
+			"MATH 160A" -> "MATH 160B" [color=pink]
+			"MATH 168A"
+			"MATH 18" -> "MATH 168A" [color=pink]
+			"MATH 20F" -> "MATH 168A" [color=pink]
+			"MATH 31AH" -> "MATH 168A" [color=pink]
+			"MATH 20C" -> "MATH 168A" [color=red]
+			"MATH 182"
+			"MATH 180A" -> "MATH 182" [color=pink]
+			"MATH 18" -> "MATH 182" [color=red]
+			"MATH 31AH" -> "MATH 182" [color=red]
+			"MATH 184"
+			"MATH 31CH" -> "MATH 184" [color=pink]
+			"MATH 109" -> "MATH 184" [color=pink]
+			"MATH 185"
+			"ECON 120B" -> "MATH 185" [color=pink]
+			"MATH 181A" -> "MATH 185" [color=pink]
+			"MATH 18" -> "MATH 185" [color=red]
+			"MATH 20F" -> "MATH 185" [color=red]
+			"MATH 31AH" -> "MATH 185" [color=red]
+			"MATH 20C" -> "MATH 185" [color=orange]
+			"MATH 31BH" -> "MATH 185" [color=orange]
+			"MATH 187A"
+			"MATH 10A" -> "MATH 187A" [color=pink]
+			"MATH 20A" -> "MATH 187A" [color=pink]
+			"MATH 187B"
+			"MATH 187" -> "MATH 187B" [color=pink]
+			"MATH 187A" -> "MATH 187B" [color=pink]
+			"MATH 18" -> "MATH 187B" [color=red]
+			"MATH 20F" -> "MATH 187B" [color=red]
+			"MATH 31AH" -> "MATH 187B" [color=red]
+			"MATH 188"
+			"MATH 31CH" -> "MATH 188" [color=pink]
+			"MATH 109" -> "MATH 188" [color=pink]
+			"MATH 18" -> "MATH 188" [color=red]
+			"MATH 31AH" -> "MATH 188" [color=red]
+			"MATH 100A" -> "MATH 188" [color=orange]
+			"MATH 103A" -> "MATH 188" [color=orange]
+			"MATH 189"
+			"MATH 18" -> "MATH 189" [color=pink]
+			"MATH 20F" -> "MATH 189" [color=pink]
+			"MATH 31AH" -> "MATH 189" [color=pink]
+			"BENG 134" -> "MATH 189" [color=red]
+			"CSE 103" -> "MATH 189" [color=red]
+			"ECE 109" -> "MATH 189" [color=red]
+			"ECON 120A" -> "MATH 189" [color=red]
+			"MAE 108" -> "MATH 189" [color=red]
+			"MATH 180A" -> "MATH 189" [color=red]
+			"MATH 183" -> "MATH 189" [color=red]
+			"MATH 186" -> "MATH 189" [color=red]
+			"SE 125" -> "MATH 189" [color=red]
+			"MATH 20C" -> "MATH 189" [color=orange]
+			"CSE 107"
+			"CSE 21" -> "CSE 107" [color=pink]
+			"MATH 154" -> "CSE 107" [color=pink]
+			"MATH 184" -> "CSE 107" [color=pink]
+			"CSE 101" -> "CSE 107" [color=red]
+			"CSE 105" -> "CSE 107" [color=orange]
+			"CSE 110"
+			"CSE 100" -> "CSE 110" [color=pink]
+			"CSE 120"
+			"CSE 30" -> "CSE 120" [color=pink]
+			"CSE 101" -> "CSE 120" [color=red]
+			"CSE 110" -> "CSE 120" [color=orange]
+			"CSE 121"
+			"CSE 120" -> "CSE 121" [color=pink]
+			"CSE 123"
+			"CSE 30" -> "CSE 123" [color=pink]
+			"CSE 101" -> "CSE 123" [color=red]
+			"CSE 110" -> "CSE 123" [color=orange]
+			"CSE 124"
+			"CSE 30" -> "CSE 124" [color=pink]
+			"CSE 101" -> "CSE 124" [color=red]
+			"CSE 110" -> "CSE 124" [color=orange]
+			"CSE 127"
+			"CSE 21" -> "CSE 127" [color=pink]
+			"MATH 154" -> "CSE 127" [color=pink]
+			"MATH 184" -> "CSE 127" [color=pink]
+			"MATH 184A" -> "CSE 127" [color=pink]
+			"CSE 120" -> "CSE 127" [color=red]
+			"CSE 123" -> "CSE 127" [color=red]
+			"CSE 124" -> "CSE 127" [color=red]
+			"CSE 130"
+			"CSE 12" -> "CSE 130" [color=pink]
+			"CSE 100" -> "CSE 130" [color=red]
+			"MATH 176" -> "CSE 130" [color=red]
+			"CSE 105" -> "CSE 130" [color=orange]
+			"MATH 166" -> "CSE 130" [color=orange]
+			"CSE 131"
+			"CSE 100" -> "CSE 131" [color=pink]
+			"CSE 105" -> "CSE 131" [color=red]
+			"CSE 130" -> "CSE 131" [color=orange]
+			"CSE 132A"
+			"CSE 100" -> "CSE 132A" [color=pink]
+			"CSE 132B"
+			"CSE 132A" -> "CSE 132B" [color=pink]
+			"CSE 134B"
+			"CSE 100" -> "CSE 134B" [color=pink]
+			"CSE 140"
+			"CSE 20" -> "CSE 140" [color=pink]
+			"MATH 15A" -> "CSE 140" [color=pink]
+			"MATH 31CH" -> "CSE 140" [color=pink]
+			"MATH 109" -> "CSE 140" [color=pink]
+			"CSE 30" -> "CSE 140" [color=red]
+			"CSE 140L"
+			"CSE 20" -> "CSE 140L" [color=pink]
+			"MATH 15A" -> "CSE 140L" [color=pink]
+			"MATH 31CH" -> "CSE 140L" [color=pink]
+			"MATH 109" -> "CSE 140L" [color=pink]
+			"CSE 30" -> "CSE 140L" [color=red]
+			"CSE 141"
+			"CSE 30" -> "CSE 141" [color=pink]
+			"CSE 140" -> "CSE 141" [color=red]
+			"CSE 140L" -> "CSE 141" [color=orange]
+			"CSE 141L"
+			"CSE 30" -> "CSE 141L" [color=pink]
+			"CSE 140" -> "CSE 141L" [color=red]
+			"CSE 140L" -> "CSE 141L" [color=orange]
+			"CSE 150A"
+			"CSE 12" -> "CSE 150A" [color=pink]
+			"DSC 40B" -> "CSE 150A" [color=pink]
+			"CSE 15L" -> "CSE 150A" [color=red]
+			"DSC 80" -> "CSE 150A" [color=red]
+			"COGS 118D" -> "CSE 150A" [color=orange]
+			"CSE 103" -> "CSE 150A" [color=orange]
+			"ECE 109" -> "CSE 150A" [color=orange]
+			"ECON 120A" -> "CSE 150A" [color=orange]
+			"MATH 180A" -> "CSE 150A" [color=orange]
+			"MATH 183" -> "CSE 150A" [color=orange]
+			"MATH 20A" -> "CSE 150A" [color=yellow]
+			"MATH 18" -> "CSE 150A" [color=lime]
+			"MATH 31AH" -> "CSE 150A" [color=lime]
+			"CSE 150B"
+			"CSE 12" -> "CSE 150B" [color=pink]
+			"DSC 40B" -> "CSE 150B" [color=pink]
+			"CSE 15L" -> "CSE 150B" [color=red]
+			"DSC 80" -> "CSE 150B" [color=red]
+			"COGS 118D" -> "CSE 150B" [color=orange]
+			"CSE 103" -> "CSE 150B" [color=orange]
+			"ECE 109" -> "CSE 150B" [color=orange]
+			"ECON 120A" -> "CSE 150B" [color=orange]
+			"MATH 180A" -> "CSE 150B" [color=orange]
+			"MATH 183" -> "CSE 150B" [color=orange]
+			"CSE 100" -> "CSE 150B" [color=yellow]
+			"CSE 151A"
+			"CSE 12" -> "CSE 151A" [color=pink]
+			"DSC 40B" -> "CSE 151A" [color=pink]
+			"CSE 15L" -> "CSE 151A" [color=red]
+			"DSC 80" -> "CSE 151A" [color=red]
+			"COGS 118D" -> "CSE 151A" [color=orange]
+			"CSE 103" -> "CSE 151A" [color=orange]
+			"ECE 109" -> "CSE 151A" [color=orange]
+			"ECON 120A" -> "CSE 151A" [color=orange]
+			"MATH 181A" -> "CSE 151A" [color=orange]
+			"MATH 183" -> "CSE 151A" [color=orange]
+			"MATH 18" -> "CSE 151A" [color=yellow]
+			"MATH 31AH" -> "CSE 151A" [color=yellow]
+			"MATH 20C" -> "CSE 151A" [color=lime]
+			"MATH 31BH" -> "CSE 151A" [color=lime]
+			"CSE 152A"
+			"MATH 18" -> "CSE 152A" [color=pink]
+			"MATH 31AH" -> "CSE 152A" [color=pink]
+			"CSE 12" -> "CSE 152A" [color=red]
+			"DSC 30" -> "CSE 152A" [color=red]
+			"CSE 15L" -> "CSE 152A" [color=orange]
+			"DSC 80" -> "CSE 152A" [color=orange]
+			"CSE 152B"
+			"CSE 152" -> "CSE 152B" [color=pink]
+			"CSE 152A" -> "CSE 152B" [color=pink]
+			"CSE 166" -> "CSE 152B" [color=pink]
+			"CSE 158"
+			"CSE 12" -> "CSE 158" [color=pink]
+			"DSC 40B" -> "CSE 158" [color=pink]
+			"CSE 15L" -> "CSE 158" [color=red]
+			"DSC 80" -> "CSE 158" [color=red]
+			"BENG 100" -> "CSE 158" [color=orange]
+			"BENG 134" -> "CSE 158" [color=orange]
+			"COGS 118D" -> "CSE 158" [color=orange]
+			"CSE 103" -> "CSE 158" [color=orange]
+			"ECE 109" -> "CSE 158" [color=orange]
+			"ECON 120A" -> "CSE 158" [color=orange]
+			"MATH 180A" -> "CSE 158" [color=orange]
+			"MATH 181A" -> "CSE 158" [color=orange]
+			"MATH 183" -> "CSE 158" [color=orange]
+			"MATH 186" -> "CSE 158" [color=orange]
+			"CSE 160"
+			"CSE 100" -> "CSE 160" [color=pink]
+			"MATH 176" -> "CSE 160" [color=pink]
+			"CSE 165"
+			"CSE 167" -> "CSE 165" [color=pink]
+			"CSE 167"
+			"CSE 100" -> "CSE 167" [color=pink]
+			"MATH 176" -> "CSE 167" [color=pink]
+			"CSE 168"
+			"CSE 167" -> "CSE 168" [color=pink]
+			"CSE 169"
+			"CSE 167" -> "CSE 169" [color=pink]
+			"CSE 176A"
+			"COGS 120" -> "CSE 176A" [color=pink]
+			"CSE 110" -> "CSE 176A" [color=pink]
+			"CSE 170" -> "CSE 176A" [color=pink]
+			"COGS 108"
+			"COGS 18" -> "COGS 108" [color=pink]
+			"CSE 8A" -> "COGS 108" [color=pink]
+			"CSE 11" -> "COGS 108" [color=pink]
+			"DSC 10" -> "COGS 108" [color=pink]
+			"MAE 8" -> "COGS 108" [color=pink]
+			"COGS 118A"
+			"COGS 18" -> "COGS 118A" [color=pink]
+			"CSE 8B" -> "COGS 118A" [color=pink]
+			"CSE 11" -> "COGS 118A" [color=pink]
+			"MATH 18" -> "COGS 118A" [color=red]
+			"MATH 31AH" -> "COGS 118A" [color=red]
+			"MATH 20E" -> "COGS 118A" [color=orange]
+			"MATH 180A" -> "COGS 118A" [color=yellow]
+			"COGS 108" -> "COGS 118A" [color=lime]
+			"COGS 109" -> "COGS 118A" [color=lime]
+			"COGS 118B" -> "COGS 118A" [color=lime]
+			"CSE 150" -> "COGS 118A" [color=lime]
+			"CSE 151" -> "COGS 118A" [color=lime]
+			"CSE 158" -> "COGS 118A" [color=lime]
+			"ECE 174" -> "COGS 118A" [color=lime]
+			"ECE 175A" -> "COGS 118A" [color=lime]
+			"COGS 118B"
+			"CSE 8B" -> "COGS 118B" [color=pink]
+			"CSE 11" -> "COGS 118B" [color=pink]
+			"MATH 18" -> "COGS 118B" [color=red]
+			"MATH 31AH" -> "COGS 118B" [color=red]
+			"MATH 20E" -> "COGS 118B" [color=orange]
+			"MATH 180A" -> "COGS 118B" [color=yellow]
+			"COGS 120"
+			"CSE 8B" -> "COGS 120" [color=pink]
+			"CSE 11" -> "COGS 120" [color=pink]
+			"DSC 30" -> "COGS 120" [color=pink]
+			"COGS 1" -> "COGS 120" [color=red]
+			"COGS 187A" -> "COGS 120" [color=red]
+			"DSGN 1" -> "COGS 120" [color=red]
+			"COGS 185"
+			"COGS 118A" -> "COGS 185" [color=pink]
+			"COGS 188"
+			"COGS 109" -> "COGS 188" [color=pink]
+			"COGS 118A" -> "COGS 188" [color=pink]
+			"COGS 118B" -> "COGS 188" [color=pink]
+		}
+	}
+	subgraph "cluster_General Math-CS Electives" {
+		label="General Math-CS Electives"
+		"Option 1"
+		"Option 2"
+	}
+}
