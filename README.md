@@ -1,5 +1,5 @@
 # UCSDCourseGrapher
-[DEPRECATED] What does a graph of all UCSD classes look like?
+[ARCHIVED] What does a graph of all UCSD classes look like?
 
 > NOTE: This is not an enrollment tool!
 
