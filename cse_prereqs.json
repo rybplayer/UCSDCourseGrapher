@@ -1,0 +1,1157 @@
+[
+    {
+        "id": "CSE181",
+        "prereqs": [
+            "CSE 100"
+        ]
+    },
+    {
+        "id": "CSE182",
+        "prereqs": [
+            "CSE 100"
+        ]
+    },
+    {
+        "id": "CSE3",
+        "prereqs": ""
+    },
+    {
+        "id": "CSE4GS",
+        "prereqs": [
+            [
+                "MATH 10A",
+                "MATH 20A"
+            ]
+        ]
+    },
+    {
+        "id": "CSE6GS",
+        "prereqs": [
+            [
+                "MATH 10A",
+                "MATH 20A"
+            ]
+        ]
+    },
+    {
+        "id": "CSE6R",
+        "prereqs": ""
+    },
+    {
+        "id": "CSE8A",
+        "prereqs": ""
+    },
+    {
+        "id": "CSE8B",
+        "prereqs": [
+            "CSE 8A"
+        ]
+    },
+    {
+        "id": "CSE11",
+        "prereqs": ""
+    },
+    {
+        "id": "CSE12",
+        "prereqs": [
+            [
+                "CSE 8B",
+                "CSE 11"
+            ]
+        ]
+    },
+    {
+        "id": "CSE15L",
+        "prereqs": [
+            [
+                "CSE 8B",
+                "CSE 11",
+                "CSE 12",
+                "DSC 30"
+            ]
+        ]
+    },
+    {
+        "id": "CSE20",
+        "prereqs": [
+            [
+                "CSE 11",
+                "CSE 6R",
+                "CSE 8A",
+                "CSE 8B",
+                "ECE 15"
+            ]
+        ]
+    },
+    {
+        "id": "CSE21",
+        "prereqs": [
+            [
+                "CSE 20",
+                "MATH 15A",
+                "MATH 31CH"
+            ]
+        ]
+    },
+    {
+        "id": "CSE25",
+        "prereqs": [
+            [
+                "COGS 18",
+                "CSE 11",
+                "CSE 6R",
+                "CSE 8A",
+                "CSE 8B",
+                "DSC 20"
+            ]
+        ]
+    },
+    {
+        "id": "CSE29",
+        "prereqs": [
+            [
+                "CSE 11",
+                "CSE 8B",
+                "ECE 15"
+            ]
+        ]
+    },
+    {
+        "id": "CSE30",
+        "prereqs": [
+            [
+                "CSE 15L",
+                "CSE 29",
+                "ECE 15"
+            ]
+        ]
+    },
+    {
+        "id": "CSE42",
+        "prereqs": ""
+    },
+    {
+        "id": "CSE55",
+        "prereqs": [
+            "CSE 12",
+            "CSE 25",
+            [
+                "CSE 15L",
+                "CSE 29"
+            ],
+            [
+                "MATH 18",
+                "MATH 31AH"
+            ],
+            [
+                "MATH 20C",
+                "MATH 31BH"
+            ]
+        ]
+    },
+    {
+        "id": "CSE86",
+        "prereqs": [
+            "CSE 12"
+        ]
+    },
+    {
+        "id": "CSE87",
+        "prereqs": ""
+    },
+    {
+        "id": "CSE89",
+        "prereqs": ""
+    },
+    {
+        "id": "CSE90",
+        "prereqs": ""
+    },
+    {
+        "id": "CSE91",
+        "prereqs": ""
+    },
+    {
+        "id": "CSE95",
+        "prereqs": ""
+    },
+    {
+        "id": "CSE99",
+        "prereqs": ""
+    },
+    {
+        "id": "CSE100",
+        "prereqs": [
+            [
+                "CSE 21",
+                "MATH 154",
+                "MATH 158",
+                "MATH 184",
+                "MATH 188"
+            ],
+            "CSE 12",
+            [
+                "CSE 15L",
+                "CSE 29",
+                "ECE 15"
+            ]
+        ]
+    },
+    {
+        "id": "CSE100R",
+        "prereqs": [
+            [
+                "CSE 21",
+                "MATH 154",
+                "MATH 158",
+                "MATH 184",
+                "MATH 188"
+            ],
+            "CSE 12",
+            [
+                "CSE 15L",
+                "CSE 29",
+                "ECE 15"
+            ]
+        ]
+    },
+    {
+        "id": "CSE101",
+        "prereqs": [
+            [
+                "CSE 21",
+                "MATH 154",
+                "MATH 158",
+                "MATH 184",
+                "MATH 188"
+            ],
+            [
+                "CSE 12",
+                "DSC 30"
+            ]
+        ]
+    },
+    {
+        "id": "CSE103",
+        "prereqs": [
+            "MATH 20B",
+            [
+                "CSE 21",
+                "MATH 154",
+                "MATH 158",
+                "MATH 184",
+                "MATH 188"
+            ]
+        ]
+    },
+    {
+        "id": "CSE105",
+        "prereqs": [
+            "CSE 12",
+            [
+                "CSE 20",
+                "MATH 109",
+                "MATH 15A",
+                "MATH 31CH"
+            ],
+            [
+                "CSE 21",
+                "MATH 100A",
+                "MATH 103A",
+                "MATH 154",
+                "MATH 158",
+                "MATH 184",
+                "MATH 188"
+            ]
+        ]
+    },
+    {
+        "id": "CSE106",
+        "prereqs": [
+            [
+                "MATH 18",
+                "MATH 31AH"
+            ],
+            [
+                "MATH 20C",
+                "MATH 31BH"
+            ],
+            [
+                "CSE 21",
+                "DSC 40B",
+                "MATH 154",
+                "MATH 158",
+                "MATH 184",
+                "MATH 188"
+            ]
+        ]
+    },
+    {
+        "id": "CSE107",
+        "prereqs": [
+            [
+                "CSE 21",
+                "MATH 154",
+                "MATH 158",
+                "MATH 184",
+                "MATH 188"
+            ],
+            "CSE 101",
+            "CSE 105"
+        ]
+    },
+    {
+        "id": "CSE109",
+        "prereqs": [
+            [
+                "CSE 15L",
+                "CSE 29"
+            ]
+        ]
+    },
+    {
+        "id": "CSE110",
+        "prereqs": [
+            [
+                "CSE 100",
+                "CSE 100R"
+            ]
+        ]
+    },
+    {
+        "id": "CSE112",
+        "prereqs": [
+            "CSE 110"
+        ]
+    },
+    {
+        "id": "CSE118",
+        "prereqs": [
+            [
+                "COGS 102C",
+                "COGS 121",
+                "COGS 184",
+                "COGS 184GS",
+                "CSE 131",
+                "CSE 132B",
+                "ECE 111",
+                "ECE 118",
+                "ECE 191",
+                "ECE 192"
+            ]
+        ]
+    },
+    {
+        "id": "CSE120",
+        "prereqs": [
+            [
+                "CSE 15L",
+                "CSE 29"
+            ],
+            "CSE 30",
+            [
+                "CSE 100",
+                "CSE 100R"
+            ],
+            "CSE 101"
+        ]
+    },
+    {
+        "id": "CSE121",
+        "prereqs": [
+            "CSE 120"
+        ]
+    },
+    {
+        "id": "CSE122",
+        "prereqs": [
+            [
+                "CSE 30",
+                "ECE 30"
+            ],
+            [
+                "CSE 101",
+                "ECE 141A"
+            ],
+            [
+                "CSE 110",
+                "ECE 141B"
+            ]
+        ]
+    },
+    {
+        "id": "CSE123",
+        "prereqs": [
+            [
+                "CSE 15L",
+                "CSE 29"
+            ],
+            "CSE 101",
+            "CSE 110"
+        ]
+    },
+    {
+        "id": "CSE124",
+        "prereqs": [
+            [
+                "CSE 15L",
+                "CSE 29"
+            ],
+            "CSE 101",
+            "CSE 110"
+        ]
+    },
+    {
+        "id": "CSE125",
+        "prereqs": ""
+    },
+    {
+        "id": "CSE127",
+        "prereqs": [
+            [
+                "CSE 21",
+                "MATH 154",
+                "MATH 158",
+                "MATH 184",
+                "MATH 188"
+            ],
+            [
+                "CSE 120",
+                "CSE 123",
+                "CSE 124",
+                "ECE 158A",
+                "ECE 158B"
+            ]
+        ]
+    },
+    {
+        "id": "CSE130",
+        "prereqs": [
+            "CSE 12",
+            [
+                "CSE 100",
+                "CSE 100R"
+            ],
+            "CSE 105"
+        ]
+    },
+    {
+        "id": "CSE131",
+        "prereqs": [
+            "CSE 30",
+            [
+                "CSE 100",
+                "CSE 100R"
+            ],
+            "CSE 105",
+            "CSE 130"
+        ]
+    },
+    {
+        "id": "CSE132A",
+        "prereqs": [
+            [
+                "CSE 100",
+                "CSE 100R"
+            ]
+        ]
+    },
+    {
+        "id": "CSE132B",
+        "prereqs": [
+            "CSE 132A"
+        ]
+    },
+    {
+        "id": "CSE132C",
+        "prereqs": [
+            [
+                "CSE 132A",
+                "DSC 102"
+            ]
+        ]
+    },
+    {
+        "id": "CSE134B",
+        "prereqs": [
+            [
+                "CSE 100",
+                "CSE 100R"
+            ]
+        ]
+    },
+    {
+        "id": "CSE135",
+        "prereqs": [
+            [
+                "CSE 100",
+                "CSE 100R"
+            ]
+        ]
+    },
+    {
+        "id": "CSE136",
+        "prereqs": [
+            "CSE 135"
+        ]
+    },
+    {
+        "id": "CSE140",
+        "prereqs": [
+            [
+                "CSE 30",
+                "ECE 30"
+            ]
+        ]
+    },
+    {
+        "id": "CSE140L",
+        "prereqs": [
+            "CSE 30"
+        ]
+    },
+    {
+        "id": "CSE141",
+        "prereqs": [
+            [
+                "CSE 30",
+                "ECE 30"
+            ],
+            "CSE 140"
+        ]
+    },
+    {
+        "id": "CSE141L",
+        "prereqs": [
+            [
+                "CSE 30",
+                "ECE 30"
+            ],
+            "CSE 140"
+        ]
+    },
+    {
+        "id": "CSE142",
+        "prereqs": [
+            [
+                "CSE 30",
+                "ECE 30"
+            ],
+            [
+                "CSE 100",
+                "CSE 100R"
+            ]
+        ]
+    },
+    {
+        "id": "CSE142L",
+        "prereqs": [
+            [
+                "CSE 30",
+                "ECE 30"
+            ],
+            [
+                "CSE 100",
+                "CSE 100R"
+            ]
+        ]
+    },
+    {
+        "id": "CSE143",
+        "prereqs": [
+            "CSE 140"
+        ]
+    },
+    {
+        "id": "CSE145",
+        "prereqs": ""
+    },
+    {
+        "id": "CSE147",
+        "prereqs": [
+            "CSE 30"
+        ]
+    },
+    {
+        "id": "CSE148",
+        "prereqs": [
+            "CSE 141",
+            "CSE 141L"
+        ]
+    },
+    {
+        "id": "CSE150A",
+        "prereqs": [
+            [
+                "CSE 12",
+                "DSC 40B"
+            ],
+            [
+                "CSE 15L",
+                "CSE 29",
+                "DSC 80"
+            ],
+            [
+                "COGS 118D",
+                "CSE 103",
+                "ECE 109",
+                "ECON 120A",
+                "MAE 108",
+                "MATH 180A",
+                "MATH 180B",
+                "MATH 181A",
+                "MATH 183",
+                "MATH 186"
+            ],
+            "MATH 20A",
+            [
+                "MATH 18",
+                "MATH 31AH"
+            ]
+        ]
+    },
+    {
+        "id": "CSE150B",
+        "prereqs": [
+            [
+                "CSE 12",
+                "DSC 40B"
+            ],
+            [
+                "CSE 15L",
+                "CSE 29",
+                "DSC 80"
+            ],
+            [
+                "COGS 118D",
+                "CSE 103",
+                "ECE 109",
+                "ECON 120A",
+                "MAE 108",
+                "MATH 180A",
+                "MATH 180B",
+                "MATH 181A",
+                "MATH 183",
+                "MATH 186"
+            ],
+            [
+                "CSE 100",
+                "CSE 100R"
+            ]
+        ]
+    },
+    {
+        "id": "CSE151A",
+        "prereqs": [
+            [
+                "CSE 12",
+                "DSC 40B"
+            ],
+            [
+                "CSE 15L",
+                "CSE 29",
+                "DSC 80"
+            ],
+            [
+                "COGS 118D",
+                "CSE 103",
+                "ECE 109",
+                "ECON 120A",
+                "MAE 108",
+                "MATH 180A",
+                "MATH 180B",
+                "MATH 181A",
+                "MATH 183",
+                "MATH 186"
+            ],
+            [
+                "MATH 18",
+                "MATH 31AH"
+            ],
+            [
+                "MATH 20C",
+                "MATH 31BH"
+            ]
+        ]
+    },
+    {
+        "id": "CSE151B",
+        "prereqs": [
+            [
+                "MATH 20C",
+                "MATH 31BH"
+            ],
+            [
+                "BENG 134",
+                "COGS 118D",
+                "CSE 103",
+                "ECE 109",
+                "ECON 120A",
+                "MAE 108",
+                "MATH 180A",
+                "MATH 180B",
+                "MATH 181A",
+                "MATH 183",
+                "MATH 186",
+                "SE 125"
+            ],
+            [
+                "COGS 118A",
+                "COGS 118B",
+                "COGS 188",
+                "CSE 151A",
+                "ECE 175A"
+            ]
+        ]
+    },
+    {
+        "id": "CSE152A",
+        "prereqs": [
+            [
+                "MATH 18",
+                "MATH 31AH"
+            ],
+            [
+                "CSE 12",
+                "DSC 30"
+            ],
+            [
+                "CSE 15L",
+                "CSE 29",
+                "DSC 80"
+            ]
+        ]
+    },
+    {
+        "id": "CSE152B",
+        "prereqs": [
+            [
+                "CSE 152A",
+                "CSE 152",
+                "CSE 166"
+            ]
+        ]
+    },
+    {
+        "id": "CSE153",
+        "prereqs": [
+            [
+                "CSE 12",
+                "DSC 40B"
+            ],
+            [
+                "CSE 15L",
+                "CSE 29",
+                "DSC 80"
+            ],
+            [
+                "BENG 100",
+                "BENG 134",
+                "COGS 118D",
+                "CSE 103",
+                "ECE 109",
+                "ECON 120A",
+                "MAE 108",
+                "MATH 180A",
+                "MATH 180B",
+                "MATH 181A",
+                "MATH 183",
+                "MATH 186"
+            ]
+        ]
+    },
+    {
+        "id": "CSE153R",
+        "prereqs": [
+            [
+                "CSE 12",
+                "DSC 40B"
+            ],
+            [
+                "CSE 15L",
+                "CSE 29",
+                "DSC 80"
+            ],
+            [
+                "BENG 100",
+                "BENG 134",
+                "COGS 118D",
+                "CSE 103",
+                "ECE 109",
+                "ECON 120A",
+                "MAE 108",
+                "MATH 180A",
+                "MATH 180B",
+                "MATH 181A",
+                "MATH 183",
+                "MATH 186"
+            ]
+        ]
+    },
+    {
+        "id": "CSE156",
+        "prereqs": [
+            [
+                "CSE 12",
+                "DSC 40B"
+            ],
+            [
+                "CSE 15L",
+                "CSE 29",
+                "DSC 80"
+            ],
+            [
+                "BENG 134",
+                "COGS 118D",
+                "CSE 103",
+                "ECE 109",
+                "ECON 120A",
+                "MAE 108",
+                "MATH 180A",
+                "MATH 180B",
+                "MATH 181A",
+                "MATH 183",
+                "MATH 186"
+            ]
+        ]
+    },
+    {
+        "id": "CSE158",
+        "prereqs": [
+            [
+                "CSE 12",
+                "DSC 40B"
+            ],
+            [
+                "CSE 15L",
+                "CSE 29",
+                "DSC 80"
+            ],
+            [
+                "BENG 100",
+                "BENG 134",
+                "COGS 118D",
+                "CSE 103",
+                "ECE 109",
+                "ECON 120A",
+                "MAE 108",
+                "MATH 180A",
+                "MATH 180B",
+                "MATH 181A",
+                "MATH 183",
+                "MATH 186"
+            ]
+        ]
+    },
+    {
+        "id": "CSE158R",
+        "prereqs": [
+            [
+                "CSE 12",
+                "DSC 40B"
+            ],
+            [
+                "CSE 15L",
+                "CSE 29",
+                "DSC 80"
+            ],
+            [
+                "BENG 100",
+                "BENG 134",
+                "COGS 118D",
+                "CSE 103",
+                "ECE 109",
+                "ECON 120A",
+                "MAE 108",
+                "MATH 180A",
+                "MATH 180B",
+                "MATH 181A",
+                "MATH 183",
+                "MATH 186"
+            ]
+        ]
+    },
+    {
+        "id": "CSE160",
+        "prereqs": [
+            [
+                "CSE 100",
+                "CSE 100R"
+            ]
+        ]
+    },
+    {
+        "id": "CSE163",
+        "prereqs": [
+            "CSE 167"
+        ]
+    },
+    {
+        "id": "CSE165",
+        "prereqs": [
+            [
+                "CSE 167",
+                "CSE 167R",
+                "MATH 155A"
+            ]
+        ]
+    },
+    {
+        "id": "CSE166",
+        "prereqs": [
+            [
+                "DSC 40B",
+                "MATH 18",
+                "MATH 31AH"
+            ],
+            [
+                "CSE 100",
+                "CSE 100R",
+                "DSC 80"
+            ]
+        ]
+    },
+    {
+        "id": "CSE167",
+        "prereqs": [
+            [
+                "CSE 100",
+                "CSE 100R"
+            ]
+        ]
+    },
+    {
+        "id": "CSE167R",
+        "prereqs": [
+            [
+                "CSE 100",
+                "CSE 100R"
+            ]
+        ]
+    },
+    {
+        "id": "CSE168",
+        "prereqs": [
+            [
+                "CSE 167",
+                "CSE 167R",
+                "MATH 155A"
+            ]
+        ]
+    },
+    {
+        "id": "CSE168R",
+        "prereqs": [
+            [
+                "CSE 167",
+                "CSE 167R",
+                "MATH 155A"
+            ]
+        ]
+    },
+    {
+        "id": "CSE169",
+        "prereqs": [
+            "CSE 167"
+        ]
+    },
+    {
+        "id": "CSE170",
+        "prereqs": [
+            [
+                "COGS 108",
+                "CSE 12",
+                "DSC 30"
+            ],
+            [
+                "COGS 1",
+                "COGS 10",
+                "DSGN 1",
+                "ENG 100D"
+            ]
+        ]
+    },
+    {
+        "id": "CSE175",
+        "prereqs": ""
+    },
+    {
+        "id": "CSE176A",
+        "prereqs": [
+            [
+                "CSE 110",
+                "CSE 170",
+                "COGS 120"
+            ]
+        ]
+    },
+    {
+        "id": "CSE176E",
+        "prereqs": ""
+    },
+    {
+        "id": "CSE180",
+        "prereqs": [
+            [
+                "BILD 1",
+                "BILD 4",
+                "CSE 11",
+                "CSE 3",
+                "CSE 8A",
+                "CSE 8B"
+            ]
+        ]
+    },
+    {
+        "id": "CSE180R",
+        "prereqs": [
+            [
+                "BILD 1",
+                "BILD 4",
+                "CSE 11",
+                "CSE 3",
+                "CSE 8A",
+                "CSE 8B"
+            ]
+        ]
+    },
+    {
+        "id": "CSE181",
+        "prereqs": [
+            [
+                "CSE 100",
+                "CSE 100R"
+            ],
+            "CSE 101",
+            [
+                "BIMM 100",
+                "CHEM 114C"
+            ]
+        ]
+    },
+    {
+        "id": "CSE181R",
+        "prereqs": [
+            [
+                "CSE 100",
+                "CSE 100R"
+            ],
+            "CSE 101",
+            [
+                "BIMM 100",
+                "CHEM 114C"
+            ]
+        ]
+    },
+    {
+        "id": "CSE182",
+        "prereqs": [
+            [
+                "CSE 100",
+                "CSE 100R"
+            ]
+        ]
+    },
+    {
+        "id": "CSE184",
+        "prereqs": [
+            [
+                "BIMM 181",
+                "BENG 181",
+                "CSE 181",
+                "BENG 182",
+                "BIMM 182",
+                "CSE 182",
+                "CHEM 182"
+            ]
+        ]
+    },
+    {
+        "id": "CSE185",
+        "prereqs": [
+            [
+                "CSE 11",
+                "CSE 8B"
+            ],
+            "CSE 12",
+            [
+                "MATH 20C",
+                "MATH 31BH"
+            ],
+            "BILD 1",
+            [
+                "BIEB 123",
+                "BILD 4",
+                "BIMM 101",
+                "CHEM 109"
+            ]
+        ]
+    },
+    {
+        "id": "CSE190",
+        "prereqs": ""
+    },
+    {
+        "id": "CSE191",
+        "prereqs": ""
+    },
+    {
+        "id": "CSE192",
+        "prereqs": ""
+    },
+    {
+        "id": "CSE193",
+        "prereqs": ""
+    },
+    {
+        "id": "CSE194",
+        "prereqs": [
+            [
+                "AAS 10",
+                "CSE 12",
+                "ECE 35",
+                "ETHN 3",
+                "HILD 7A",
+                "LTEN 27"
+            ],
+            [
+                "CAT 125",
+                "CAT 125R",
+                "CAT 3",
+                "DOC 3",
+                "HUM 2",
+                "MCWP 125",
+                "MCWP 125R",
+                "MCWP 50",
+                "MCWP 50R",
+                "MMW 121",
+                "MMW 121R",
+                "MMW 122",
+                "MMW 13",
+                "SYN 2",
+                "WCWP 100",
+                "WCWP 10B"
+            ]
+        ]
+    },
+    {
+        "id": "CSE197",
+        "prereqs": ""
+    },
+    {
+        "id": "CSE197C",
+        "prereqs": ""
+    },
+    {
+        "id": "CSE198",
+        "prereqs": ""
+    },
+    {
+        "id": "CSE199",
+        "prereqs": ""
+    },
+    {
+        "id": "CSE199H",
+        "prereqs": ""
+    }
+]
